@@ -1,0 +1,29 @@
+name: Report a problem
+description: Report a reproducible interface or documentation issue.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "For suspected vulnerabilities, email info@wormswap.finance privately. Remove personal information and credentials from your report."
+  - type: input
+    id: location
+    attributes:
+      label: Page or document
+      description: Where did the problem occur?
+      placeholder: https://wormswap.finance/swap
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include what you expected and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Browser and device
+      description: Browser/version, operating system and wallet application, if relevant.
+    validations:
+      required: false

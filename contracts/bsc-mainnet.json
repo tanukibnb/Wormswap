@@ -1,0 +1,42 @@
+{
+  "project": "WormSwap",
+  "documentationSnapshot": "2026-10-18",
+  "network": {
+    "name": "BNB Smart Chain mainnet",
+    "chainId": 56,
+    "nativeAsset": "BNB",
+    "explorer": "https://bscscan.com"
+  },
+  "contracts": {
+    "router": {
+      "address": "0x532Bd585DdB129ea50b0938995d3ac3184c4F1BC",
+      "source": "https://bscscan.com/address/0x532Bd585DdB129ea50b0938995d3ac3184c4F1BC#code",
+      "deploymentTransaction": "0x1ee007745a97b3586bed37b84357262d8b320c1c9c06e3f8f0b6d0a83a60e115",
+      "deploymentBlock": 127956960,
+      "deploymentTime": "2026-10-16T09:47:24Z",
+      "feeBps": 20
+    },
+    "feeDistributor": {
+      "address": "0x66f87B4125b314a8Abd26AbCa7B43da045700Eb5",
+      "source": "https://bscscan.com/address/0x66f87B4125b314a8Abd26AbCa7B43da045700Eb5#code",
+      "burnAllocationBps": 10000
+    }
+  },
+  "assets": {
+    "TANUKI": {
+      "address": "0x77a9fdeaDA4D273Dc17374106Ee5121d9FCe7777",
+      "explorer": "https://bscscan.com/token/0x77a9fdeaDA4D273Dc17374106Ee5121d9FCe7777"
+    },
+    "WBNB": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "explorer": "https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+    }
+  },
+  "burnAddress": "0x000000000000000000000000000000000000dEaD",
+  "links": {
+    "website": "https://wormswap.finance",
+    "swap": "https://wormswap.finance/swap",
+    "x": "https://x.com/WormSwap",
+    "contact": "mailto:info@wormswap.finance"
+  }
+}

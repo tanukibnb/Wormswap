@@ -1,0 +1,30 @@
+# Local credentials and operational material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*keystore*.json
+secrets/
+credentials/
+wallet-backups/
+
+# Local application output
+node_modules/
+.next/
+dist/
+coverage/
+*.log
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
